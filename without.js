@@ -8,7 +8,6 @@ const eqArrays = function(array1, array2) {
 };
 
 const assertArrayEqual = function(array1, array2) {
- 
   if (eqArrays(array1,array2)) {
     console.log(`🌼Assertion Passed ${array1} === ${array2}`);
   
@@ -23,13 +22,13 @@ const without = function(source, itemsToRemove) {
     for (let j = 0; j < itemsToRemove.length; j++) {
       source[i] === itemsToRemove[j] ? arrayRemoved.splice(i,1) : "";
     }
-    
   }
   return arrayRemoved;
  
 
 
 };
-without([1, 2, 3], [1]) // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+without([1, 2, 3], [1]); // => [2, 3]
+without(["1", "2", "3"], [1, 2, "3"]); // => ["1", "2"]
 assertArrayEqual([1,2], without([1, 2, 3], [1]));
+assertArrayEqual([1,2], without([1, 2, "3"], ['1', '2', "3"]));
