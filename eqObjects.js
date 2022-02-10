@@ -34,7 +34,7 @@ const eqObjects = function(object1, object2) {
 };
 
 const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3,4], c: "2" };
+const dc = { d: ["2", 3, 4], c: "2" };
 assertEqual(eqObjects(cd, dc),true); // => true
 
 const cd2 = { c: "1", d: ["2", 3, 4] };

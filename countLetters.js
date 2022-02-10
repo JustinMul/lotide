@@ -10,7 +10,6 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(sentence) {
   let removeSpaceSentence = sentence.replaceAll(' ','');
   let letterCounter = {};
-
   for (const letter of removeSpaceSentence) {
     if (letterCounter[letter]) {
       letterCounter[letter]++;
