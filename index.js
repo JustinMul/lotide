@@ -12,31 +12,29 @@ const eqObjects = require('./eqObjects.js');
 const findKey = require('./findKey.js');
 const findKeyByValue = require('./findKeyByValue.js');
 const flatten = require('./flatten.js');
-const index = require('./index.js');
 const letterPositions = require('./letterPositions.js');
 const map = require('./map.js');
 const takeUntil = require('./takeUntil.js');
 const without = require('./without.js');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey:findKey,
-  findKeyByValue: findKeyByValue,
-  flatten: flatten,
-  index: index,
-  letterPositions: letterPositions,
-  map:map,
-  takeUntil: takeUntil,
-  without:without
+  head,
+  tail,
+  middle,
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  flatten,
+  letterPositions,
+  map,
+  takeUntil,
+  without
 
   
 

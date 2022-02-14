@@ -34,3 +34,5 @@ const assertArrayEqual = function(array1, array2) {
 };
 
 assertArrayEqual(letterPositions('lighthouse in the house').i,[1,11]);
+
+module.exports = letterPositions;

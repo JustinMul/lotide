@@ -36,3 +36,5 @@ console.log(results1);
 assertArrayEqual(map(words, word => word[0]),[ 'g', 'c', 't', 'm', 't' ]);//true
 assertArrayEqual(map(words1, word => word + 's'),[ 'Luffys', 'Zoros', 'Namis', 'Ussops', 'Sanjis', 'Chopppers','Robins', 'Frankies', 'Brooks', 'Jimbes' ]); // false
 assertArrayEqual(map(nums, num => num * 3),[15,30,6,132,15]); //True
+
+module.exports = map;
