@@ -25,6 +25,9 @@ findKey({
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 2);// => "noma"
 
+function (x){
+  x.stars === 2 
+}
 assertEqual(findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
