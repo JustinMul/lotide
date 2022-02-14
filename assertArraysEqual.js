@@ -1,12 +1,4 @@
-const eqArrays = function(array1, array2) {
-  for (let i = 0; i < array1.length; i++) {
-    if (array1[i] !== array2[i] || array1.length !== array2.length) {
-      return false;
-    }
-
-  }
-  return true;
-};
+const eqArrays = require('./eqArrays.js');
 
 const assertArrayEqual = function(array1, array2) {
   if (eqArrays(array1,array2)) {
@@ -17,5 +9,6 @@ const assertArrayEqual = function(array1, array2) {
   }
 };
 
-assertArrayEqual([1,2,3],[4,3,5]); //false
-assertArrayEqual([1,2,3],[1,2,3]);
+module.exports = assertArrayEqual;
+
+// this done i need to add and push both this and the test file
