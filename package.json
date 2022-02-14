@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@justinmulroney/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This was created as a learning project from LHL and was made to emulate the lotide package",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/JustinMul/lotide.git"
   },
-  "author": "",
+  "author": {"name": "Justin Mulroney", "email": "justinmulroney@gmail.com", "url": "https://github.com/JustinMul"},
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JustinMul/lotide/issues"

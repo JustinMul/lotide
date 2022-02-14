@@ -30,7 +30,7 @@ const without = function(source, itemsToRemove) {
 };
 without([1, 2, 3], [1]); // => [2, 3]
 without(["1", "2", "3"], [1, 2, "3"]); // => ["1", "2"]
-assertArrayEqual([1,2], without([1, 2, 3], [1]));
+assertArrayEqual([2,3], without([1, 2, 3], [1]));
 assertArrayEqual([1,2], without([1, 2, "3"], ['1', '2', "3"]));
 
 module.exports = without;
