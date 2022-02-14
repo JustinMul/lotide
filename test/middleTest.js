@@ -1,8 +1,14 @@
-const assertArrayEqual = require('../assertArraysEqual.js');
+const assert = require("chai").assert;
 const middle = require('../middle.js');
 
+describe('#middleTest' , () => {
 
-assertArrayEqual(middle([1,2]),[]); // => [3, 4])
-assertArrayEqual(middle([1, 2, 3, 4, 5, 6]),[3,4]);// => [3]
-assertArrayEqual(middle([1,2,3,4]),[2,4]); //=> should fail
+  it('Should return [] when reciving and array less than 3 items', () => {
+    assert.deepEqual(middle([1,2]),[]);
+  });
+
+  it('should equaal 2 middle number when array is even number and greater than 3 items', () => {
+    assert.deepEqual(middle([1, 2, 3, 4, 5, 6]),[3,4]);
+  });
+});
 
