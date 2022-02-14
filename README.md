@@ -26,20 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-const head   = require('./head');
-const tail   = require('./tail');
-const middle = require('./middle');
-const assertArraysEqual = require('./assertArraysEqual.js');
-const assertEqual = require('./assertEqual.js');
-const assertObjectsEqual = require('./assertObjectsEqual.js');
-const countLetters = require('./countLetters.js');
-const countOnly = require('./countOnly.js');
-const eqArrays = require('./eqArrays.js');
-const eqObjects = require('./eqObjects.js');
-const findKey = require('./findKey.js');
-const findKeyByValue = require('./findKeyByValue.js');
-const flatten = require('./flatten.js');
-const letterPositions = require('./letterPositions.js');
-const map = require('./map.js');
-const takeUntil = require('./takeUntil.js');
-const without = require('./without.js');
+const head   = returns the first element of an array 
+const tail   = returns all elements of the array execpt for the first element/
+const middle = array and return the middle-most element(s) of the given array.
+const assertArraysEqual = take in two arrays and console.log an appropriate message to the console.
+const assertEqual = a function to mimic the assert function of lotide (checks to see if your output is what you expect)
+const assertObjectsEqual = take in two objects and console.log an appropriate message to the console.
+const countLetters = takes in a sentence (as a string) and then return a count of each of the letters in that sentence
+const countOnly = return a proper report on all the strings found in the input array, and their respective counts. 
+const eqArrays =  takes in two arrays and returns true or false, based on a perfect match.
+const eqObjects = Used to compare if 2 objects are the same
+const findKey = takes in an object and a callback. It scans the object and returns the first key for which the callback returns a truthy value. If no key is found, then it returns undefined.
+const findKeyByValue = takes in an object and a value and it scan the object and return the first key which contains the given value. If no key with that given value is found, then it return undefined.
+const flatten = flattens out an array by making all arrays in the same level. For example nested arrrays are no longer nested and now become inline with the non nested arrays.
+const letterPositions = return all the indices (zero-based positions) in the string where each character is found.
+const map = takes and array of elements and modifies them based on your call back function and outputs a new array.
+const takeUntil = The function will return a "slice of the array with elements taken from the beginning." It should keep going until the callback/predicate returns a truthy value.
+const without = return a subset of a given array, removing unwanted elements.
