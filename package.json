@@ -1,6 +1,6 @@
 {
   "name": "@justinmulroney/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This was created as a learning project from LHL and was made to emulate the lotide package",
   "main": "assertArraysEqual.js",
   "directories": {
